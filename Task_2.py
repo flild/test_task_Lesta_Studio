@@ -32,7 +32,6 @@ class second_way():
         self._fifo_que.append(value)
 
 
-
 '''
 Первый класс реализован через список его минус в медленной скорости, так как питон сначала при операции pop смещает каждый элемент влево,
 отсюда скорость O(n).
@@ -58,6 +57,7 @@ work.first.set('one')
 work.first.set('two')
 work.second.set('one')
 work.second.set('two')
+
 
 
 print work.first.get()
