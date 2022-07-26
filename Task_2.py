@@ -48,22 +48,20 @@ p.s.s
 Ниже под комментарием реализована проверка работы программы
 '''
 
-class worker():
-    first = first_way()
-    second = second_way()
 
-work = worker()
-work.first.set('one')
-work.first.set('two')
-work.second.set('one')
-work.second.set('two')
+first_que = first_way()
+second_que = second_way()
+first_que.set('one')
+first_que.set('two')
+second_que.set('one')
+second_que.set('two')
 
 
 
-print work.first.get()
-print work.first.get()
-print work.first.get()
+print first_que.get()
+print first_que.get()
+print first_que.get()
 
-print work.second.get()
-print work.second.get()
-print work.second.get()
+print second_que.get()
+print second_que.get()
+print second_que.get()
