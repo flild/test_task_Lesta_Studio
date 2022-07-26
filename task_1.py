@@ -10,6 +10,7 @@ def isEven2(value):
     if value & 1:
         return False
     return True
+
 '''
 Пояснения
 В данном случае мы используем побитовое сравнение
